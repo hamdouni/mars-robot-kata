@@ -1,7 +1,5 @@
 # mars-robot-kata
 
-
-
 # Installing
 
 ## Preparing dependencies
@@ -24,17 +22,15 @@ $ go get -u golang.org/x/sys
 
 # Requirements v1
 
-```
-* For each robot, you are given a starting point (x,y) and the direction it is facing (N,E,W,S)
+- [x] For each robot, you are given a starting point (x,y) and the direction it is facing (N,E,W,S)
 
-* The robot receives an array of commands
+- [ ] The robot receives an array of commands
 
-* Implement commands that move the robot (F, B)
+- [ ] Implement commands that move the robot (F, B)
 
-* Implement commands that turn the robot (L, R) (both in 90°)
+- [ ] Implement commands that turn the robot (L, R) (both in 90°)
 
-* Robots cannot move below (0,0) and beyond (xmax, ymax)
-```
+- [ ] Robots cannot move below (0,0) and beyond (xmax, ymax)
 
 
 # Rules
